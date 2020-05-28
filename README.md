@@ -1,5 +1,18 @@
 # OWASP Ten
 
+## Maquinas de prueba
+
+### [DVWA](https://github.com/ethicalhack3r/DVWA)
+
+Web hecha en php con vulnerabilidades para practicar
+
+🐳 Correr con docker `docker run --rm -it -p 80:80 vulnerables/web-dvwa`
+
+🐳 abrir navegador escribir `localhost` o `172.17.0.2`
+
+🐳 Por defecto tiene la seguridad en alta tenemos que cambiarla a baja para poder probar los fallos(DVWA security)
+
+
 ## [2017](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/)
 
 ### [A1:2017-Injection](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection.html)
