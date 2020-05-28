@@ -28,6 +28,22 @@ App de android con vulnerabilidades
 
 App en ios con vulnerabilidades
 
+## [WebGoat](https://github.com/WebGoat/WebGoat)
+
+Web con java vulnerable
+
+🦜 Tener instalado docker y docker-compose
+
+```bash
+$ curl https://raw.githubusercontent.com/WebGoat/WebGoat/master/docker-compose.yml |
+docker-compose -f - up
+```
+
+🦜 Ingresar url `http://localhost:8080/WebGoat/login`
+
+🦜 crearse una cuenta e ingresar
+
+
 ## ✨ [2017](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/)
 
 ### 🚀 [A1:2017-Injection](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection.html)
