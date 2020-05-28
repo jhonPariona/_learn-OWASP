@@ -1,26 +1,28 @@
 # OWASP Ten
 
-## Maquinas de prueba
+## 🛠 Maquinas de prueba
 
 ### [DVWA](https://github.com/ethicalhack3r/DVWA)
 
 Web hecha en php con vulnerabilidades para practicar
 
-🐳 Correr con docker `docker run --rm -it -p 80:80 vulnerables/web-dvwa`
-
-🐳 abrir navegador escribir `localhost` o `172.17.0.2`
-
-🐳 Por defecto tiene la seguridad en alta tenemos que cambiarla a baja para poder probar los fallos(DVWA security)
+- Correr con docker `docker run --rm -it -p 80:80 vulnerables/web-dvwa`
+- abrir navegador escribir `localhost` o `172.17.0.2`
+- Por defecto tiene la seguridad en alta tenemos que cambiarla a baja para poder probar los fallos(DVWA security)
 
 ### [XVNA](https://github.com/vegabird/xvna)
 
 Web hecha en node con vulnerabilidades
 
-🐳 En su [youtube](https://www.youtube.com/watch?v=jAOGlf4eoic&list=PLl3MvLA31T7LCIP7Lzlc9EDVURD6wEt5J) tiene videos de como explotar cada vulnerabilidad
+- En su [youtube](https://www.youtube.com/watch?v=jAOGlf4eoic&list=PLl3MvLA31T7LCIP7Lzlc9EDVURD6wEt5J) tiene videos de como explotar cada vulnerabilidad
 
-## [2017](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/)
+### [Diva Android](https://github.com/payatu/diva-android)
 
-### [A1:2017-Injection](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection.html)
+App de android con vulnerabilidades
+
+## ✨ [2017](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/)
+
+### 🚀 [A1:2017-Injection](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection.html)
 
 Inyección SQL, [NoSQL](https://github.com/search?q=Nosql+injection), OS, LDAP
 
@@ -35,7 +37,7 @@ Inyección SQL, [NoSQL](https://github.com/search?q=Nosql+injection), OS, LDAP
 - Usar prepared statement(php)
 - usar ORM
 
-### A2:2017-Broken authentication
+### 🚀 A2:2017-Broken authentication
 
 Inicio de sesion no implementadas correctamente
 
@@ -57,28 +59,28 @@ Hydra |
 - usar framework para implementar logins
 - contraseñas seguras
 
-### A3:2017-Sensitive Data Exposure
+### 🚀 A3:2017-Sensitive Data Exposure
 
 **✔ Soluciones**
 
 - Usar certificados HTTPS
 - Guardar contraseñas hasheadas con algoritmos seguros(sha256) y aplicando un salt
 
-### A4:2017-XML External Entities(XXE)
+### 🚀 A4:2017-XML External Entities(XXE)
 
 ** ✔ Soluciones**
 
 - usar JSON
 - usar parseadores de XML y validarlos
 
-### A5:2017-Broken acces control
+### 🚀 A5:2017-Broken acces control
 
 restricciones en lo que puede hacer o no un usuario autenticado
 
 **LFI**
 Configuracion erronea del server que permite listar archivos o ejecutar comandos
 
-### A6:217-Security misconfiguration
+### 🚀 A6:217-Security misconfiguration
 
 Configuraciones erroneas
 
@@ -86,7 +88,7 @@ Configuraciones erroneas
 
 - Listar [buckets aws inseguros](https://github.com/eth0izzle/bucket-stream)
 
-### A7:217-Cross Site Scripting
+### 🚀 A7:217-Cross Site Scripting
 
 Permite inyectar HTML o Javascript
 
@@ -104,15 +106,15 @@ Permite inyectar HTML o Javascript
 
 - LImpieza y validación de datos
 
-### A8:217-Insecure Deserialización
+### 🚀 A8:217-Insecure Deserialización
 
-### A9:217-Using COmponents with Known Vulnerabilities
+### 🚀 A9:217-Using COmponents with Known Vulnerabilities
 
 ** ✔ Soluciones**
 
 - Estar atento a las [vulnerabilidades](https://github.com/jhonPariona/_learn-pentesting/blob/master/scanning.md#-organismos-y-p%C3%A1ginas-de-vulnerabilidades)
 
-### A10:217-Insufficient Logging & Monitoring
+### 🚀 A10:217-Insufficient Logging & Monitoring
 
 Usar logs monitorizados para detectar incidentes de ataques DFIR(Digital forensics and inciden response )
 
