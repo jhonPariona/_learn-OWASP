@@ -42,7 +42,8 @@ Inicio de sesion no implementadas correctamente
 
 Hydra | 
 [diccionarios](https://wiki.skullsecurity.org/Passwords) |
-[zap ataque diccionarios](https://owasp.org/www-project-zap/)
+[zap ataque diccionarios](https://owasp.org/www-project-zap/) |
+[WPForce para wordpress](https://github.com/n00py/WPForce)
 
 **✔ Soluciones**
 
