@@ -12,6 +12,11 @@ Web hecha en php con vulnerabilidades para practicar
 
 🐳 Por defecto tiene la seguridad en alta tenemos que cambiarla a baja para poder probar los fallos(DVWA security)
 
+### [XVNA](https://github.com/vegabird/xvna)
+
+Web hecha en node con vulnerabilidades
+
+🐳 En su [youtube](https://www.youtube.com/watch?v=jAOGlf4eoic&list=PLl3MvLA31T7LCIP7Lzlc9EDVURD6wEt5J) tiene videos de como explotar cada vulnerabilidad
 
 ## [2017](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/)
 
