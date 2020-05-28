@@ -2,7 +2,7 @@
 
 ## 📁 Diapos
 
-[Keepcoding](https://drive.google.com/drive/u/1/folders/1msgjx-Ts1h8z3oaC8d0FxzXcQD_RvlFZ)
+[Escaneo vulnerabilidades](https://drive.google.com/open?id=1YiZm06JGiYAoOUujAMF5F6HaUAHTZIRv)
 
 ## 🛠 Maquinas de prueba
 
