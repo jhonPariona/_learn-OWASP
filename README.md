@@ -1,5 +1,9 @@
 # OWASP Ten
 
+## 📁 Diapos
+
+[Keepcoding](https://drive.google.com/drive/u/1/folders/1msgjx-Ts1h8z3oaC8d0FxzXcQD_RvlFZ)
+
 ## 🛠 Maquinas de prueba
 
 ### [DVWA](https://github.com/ethicalhack3r/DVWA)
