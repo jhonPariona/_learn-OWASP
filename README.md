@@ -43,7 +43,10 @@ Inyección SQL, [NoSQL](https://github.com/search?q=Nosql+injection), OS, LDAP
 **✔ Soluciones**
 
 - Usar prepared statement(php)
-- usar ORM
+- Validación es mejor en el backend en el frontend podria ser por usabilidad pero no es seguro ya que el user puede desactivarlas.
+- Usar ORMS ya que ya contienen soluciones frente a estos problemas.
+- Usar Querys parametrizadas, ..
+- siempre usar inputs validation nunca confiar en lo que el usuario nos podria enviar
 
 ### 🚀 A2:2017-Broken authentication
 
@@ -66,6 +69,11 @@ Hydra |
 - segundo factor de autenticación
 - usar framework para implementar logins
 - contraseñas seguras
+- usar frameworks como spring security
+- Forzar la autenticación para todas las urls
+- No es recomendable las preguntas seguras
+- No admitir jwt sin firmar
+- El secreto compartido de jwt debe de ser muy seguro sino se puede romper con jhon the ripper
 
 ### 🚀 A3:2017-Sensitive Data Exposure
 
@@ -73,13 +81,24 @@ Hydra |
 
 - Usar certificados HTTPS
 - Guardar contraseñas hasheadas con algoritmos seguros(sha256) y aplicando un salt
+- Se debe de usar https
+- no es recomendado MD5, mejor es sha256
+- pbkdf2 es mejor para guardar contraseñas
+
 
 ### 🚀 A4:2017-XML External Entities(XXE)
 
 ** ✔ Soluciones**
 
-- usar JSON
 - usar parseadores de XML y validarlos
+- Usar mejor JSON(No tiene Entity)
+- Si usamos XML y no usamos Entity desactivarlos.
+
+### CSRF Cross site request forgery
+
+- caad vez que se haga una peticion usar un nuevo token
+- no usar token statico
+- usar frameworks que ya implementas estas soluciones
 
 ### 🚀 A5:2017-Broken acces control
 
@@ -88,6 +107,14 @@ restricciones en lo que puede hacer o no un usuario autenticado
 **LFI**
 Configuracion erronea del server que permite listar archivos o ejecutar comandos
 
+**Enumeración de usuarios**
+
+autenticar para poder enumerar usuarios(proteger quien puede enumerar usuarios o el tiempo en q se hace esaas peticiones)
+
+** ✔ Soluciones**
+
+- No devolver informacion que no se va a pintar en el front
+
 ### 🚀 A6:217-Security misconfiguration
 
 Configuraciones erroneas
@@ -95,6 +122,10 @@ Configuraciones erroneas
 **Tools**
 
 - Listar [buckets aws inseguros](https://github.com/eth0izzle/bucket-stream)
+- quien tiene autorizacion de hacer aciones en nuestros enpoints
+- Dejar solo lo neesario para la producción
+- Controlar accesos, numero de logins que pueden hacer los usuarios
+- subir el codigo en modo debug
 
 ### 🚀 A7:217-Cross Site Scripting
 
